@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Programació Avançada">
+	
+	<!--enllaç a estils CSS externs-->
+	<link href="Reserva.css" rel="stylesheet" type="text/css">
+	<!--script JavaScript en fitxer extern-->
+	<script type="text/javascript" SRC="Reserva.js"></script>
+	
+</head>
+
+<body>
+
+
+
+<form name="formulari">
+<div id="eee">
+<header id="h1"><h1>RESERVA un lloc</h1></header>
+<ul>
+<label id="h">* Obligatori</label><br><br>
+<label for="Nom">Nom i Cognoms:</label>
+<input type="text" id="Nom" name="Nom" value="Escriu el teu nom" onclick="clicNom();" onblur="surtnom();">
+<label>*</label>
+<label id="inc1"></label><br><br>
+
+<label for="ident">Tipus d'identificació i nº d'identificació:</label>
+<select id = "ident" name = "ident" onclick ="opciodni();">
+<option value="buit"></option>
+<option value="DNI">DNI</option>
+<option value="NIE">NIU</option>  
+<input type="text" id="dni" name="Dni" value="Escriu el teu NIU o DNI" onclick="clicDNI();" onblur="surtdni();">
+<label>*</label>
+<label id="inc2"></label> <br><br>
+
+<label for="Ciutatpais">HORARI:</label>
+ 
+<select id = "paisos" name = "paisos" onblur="surtpais();" onclick="pais();" >
+<option value="buit"></option>
+<option value="Portugal">8:00</option>
+<option value="Dinamarca">9:00</option>
+<option value="Francia">10:00</option>
+<option value="Noruega">11:00</option>
+<option value="Ucrania">12:00</option>
+</select>
+<label>*</label>
+
+
+<label id="inc8"></label> 
+ <br><br><br>
+<label for="ident">Escull Facultat:</label>
+<select id = "ciutats" name = "ciutats"  onblur="surtciutat();" onclick="ciutat();">
+<option value="buit"></option>
+<option value="Barcelona">Escola d'Enginyeria</option>
+<option value="Madrid">Facultat de Ciències</option>
+<option value="Vigo">Facultat de Filosofia i Lletres</option>
+<option value="Granada">Facultat de Psicologia</option>
+</select>
+<label>*</label><br><br>
+
+<label for="ident">Escull la zona d'estudi:</label>
+<select id = "ciutats" name = "ciutats"  onblur="surtciutat();" onclick="ciutat();">
+<option value="buit"></option>
+<option value="Barcelona">Sala de treball 1</option>
+<option value="Madrid">Sala de treball 2</option>
+<option value="Vigo">Sala de treball 3</option>
+</select>
+<label>*</label><br><br>
+ <label for=come>Comentaris:</label><br>
+ <textarea name="comentaris" id="com" cols="70" rows="5" maxlength="500" onblur="surtcom();" onclick="clickCom();" onkeypress="teclacom();" >Escriu aquí...</textarea><br>
+<label id="comen"></label>
+<label id="inc6"></label>
+<br><br>
+  
+
+<button type="button" name="boto"onclick="executar();">Enviar</button><br>
+<label id="inc5"></label>
+</ul>
+</div>
+</form>
+
+
+
+
+
+</body>
+
+</html>

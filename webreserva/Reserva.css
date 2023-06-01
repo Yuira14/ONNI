@@ -1,0 +1,75 @@
+#comen {
+  font-size: 0.75em ;
+  
+}
+#inc1{
+  color: red;
+  font-size: 0.75em ;
+}
+#inc2{
+  color: red;
+  font-size: 0.75em ;
+}
+
+#inc3{
+   color: red;
+  font-size: 0.75em ;
+}
+ 
+#inc4{
+   color: red;
+  font-size: 0.75em ;
+}
+
+#inc5{
+   color: red;
+  font-size: 0.75em ;
+}
+#inc6{
+   color: red;
+  font-size: 0.75em ;
+}
+#inc8{
+   color: red;
+  font-size: 0.75em ;
+}
+#p1{
+   font-size: 0.75em 
+}
+#h{
+	font-size: 0.75em;
+	text-align: center;
+  
+}
+h1{
+	color: black;
+	font-size:3em;
+	text-align:center;
+}
+input{
+	border-radius:15px
+}
+header{
+	background:#6c0375;
+	border-radius:22px
+  
+	
+}
+form{
+  
+  margin: 0 auto;
+  background-color: #000000;
+  
+  border: 1.5px solid rgb(243, 239, 239);
+  border-radius:22px
+  
+}
+body{
+  background-color: #e5e2e6;
+	font-family:Calibri;
+  color:azure
+  
+}
+#eee{
+  height: 100vh;
+}
